@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''A script for parsing HTTP request logs.
 '''
-import request
+import re
 
 
 def extract_input(input_line):
